@@ -1,0 +1,13 @@
+Setting up git
+git clone https://github.com/data-engineer-dare/sainsburys.git
+#add a file to git
+git add [filename within the repo directory]
+git add -A (adds all the files in the PWD)
+#check if a new file is ready to be committed
+git status
+#Lock the file into the repository
+git commit -m "just added a new file"
+#push it to the repository
+git push
+#Pull from others
+git pull
